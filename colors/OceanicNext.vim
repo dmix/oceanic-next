@@ -1,7 +1,7 @@
 " ===============================================================
 " OceanicNext
-" 
-" URL: 
+"
+" URL:
 " Author: Mike Hartington
 " License: Apache
 " Last Change: 2017/01/11 09:11
@@ -17,7 +17,7 @@ let g:colors_name="OceanicNext"
 hi Bold gui=bold cterm=bold
 hi Debug guifg=#ec5f67 ctermfg=203
 hi Directory guifg=#6699cc ctermfg=68
-hi ErrorMsg guifg=#ec5f67 ctermfg=203 guibg=#1b2b34 ctermbg=235
+hi ErrorMsg guifg=#ec5f67 ctermfg=203 guibg=#181C1D ctermbg=235
 hi Exception guifg=#ec5f67 ctermfg=203
 hi FoldColumn guibg=#343d46 ctermbg=237
 hi Folded guifg=#65737e ctermfg=243 guibg=#343d46 ctermbg=237
@@ -37,10 +37,10 @@ hi VisualNOS guifg=#ec5f67 ctermfg=203
 hi WarningMsg guifg=#ec5f67 ctermfg=203
 hi WildMenu guifg=#ffffff ctermfg=15 guibg=#6699cc ctermbg=68
 hi Title guifg=#6699cc ctermfg=68 gui=NONE cterm=NONE
-hi Conceal guifg=#6699cc ctermfg=68 guibg=#1b2b34 ctermbg=235
-hi Cursor guifg=#1b2b34 ctermfg=235 guibg=#c0c5ce ctermbg=251
+hi Conceal guifg=#6699cc ctermfg=68 guibg=#181C1D ctermbg=235
+hi Cursor guifg=#181C1D ctermfg=235 guibg=#c0c5ce ctermbg=251
 hi NonText guifg=#65737e ctermfg=243
-hi Normal guifg=#c0c5ce ctermfg=251 guibg=#1b2b34 ctermbg=235
+hi Normal guifg=#c0c5ce ctermfg=251 guibg=#181C1D ctermbg=235
 hi LineNr guifg=#65737e ctermfg=243 guibg=#343d46 ctermbg=237
 hi CursorLineNR guifg=#ffffff ctermfg=15 guibg=#ffffff ctermbg=15
 hi SignColumn guifg=#65737e ctermfg=243 guibg=#343d46 ctermbg=237
@@ -85,10 +85,10 @@ hi Tag guifg=#fac863 ctermfg=221
 hi Todo guifg=#fac863 ctermfg=221 guibg=#343d46 ctermbg=237
 hi Type guifg=#fac863 ctermfg=221 gui=NONE cterm=NONE
 hi Typedef guifg=#fac863 ctermfg=221
-hi SpellBad guibg=#1b2b34 ctermbg=235 gui=undercurl cterm=undercurl
-hi SpellLocal guibg=#1b2b34 ctermbg=235 gui=undercurl cterm=undercurl
-hi SpellCap guibg=#1b2b34 ctermbg=235 gui=undercurl cterm=undercurl
-hi SpellRare guibg=#1b2b34 ctermbg=235 gui=undercurl cterm=undercurl
+hi SpellBad guibg=#181C1D ctermbg=235 gui=undercurl cterm=undercurl
+hi SpellLocal guibg=#181C1D ctermbg=235 gui=undercurl cterm=undercurl
+hi SpellCap guibg=#181C1D ctermbg=235 gui=undercurl cterm=undercurl
+hi SpellRare guibg=#181C1D ctermbg=235 gui=undercurl cterm=undercurl
 hi csClass guifg=#fac863 ctermfg=221
 hi csAttribute guifg=#fac863 ctermfg=221
 hi csModifier guifg=#c594c5 ctermfg=176
@@ -106,9 +106,9 @@ hi DiffChange guifg=#65737e ctermfg=243 guibg=#343d46 ctermbg=237
 hi DiffDelete guifg=#ec5f67 ctermfg=203 guibg=#343d46 ctermbg=237
 hi DiffText guifg=#6699cc ctermfg=68 guibg=#343d46 ctermbg=237
 hi DiffAdded guifg=#ffffff ctermfg=15 guibg=#99c794 ctermbg=114
-hi DiffFile guifg=#ec5f67 ctermfg=203 guibg=#1b2b34 ctermbg=235
-hi DiffNewFile guifg=#99c794 ctermfg=114 guibg=#1b2b34 ctermbg=235
-hi DiffLine guifg=#6699cc ctermfg=68 guibg=#1b2b34 ctermbg=235
+hi DiffFile guifg=#ec5f67 ctermfg=203 guibg=#181C1D ctermbg=235
+hi DiffNewFile guifg=#99c794 ctermfg=114 guibg=#181C1D ctermbg=235
+hi DiffLine guifg=#6699cc ctermfg=68 guibg=#181C1D ctermbg=235
 hi DiffRemoved guifg=#ffffff ctermfg=15 guibg=#ec5f67 ctermbg=203
 hi gitCommitOverflow guifg=#ec5f67 ctermfg=203
 hi gitCommitSummary guifg=#99c794 ctermfg=114
@@ -127,7 +127,7 @@ hi markdownHeadingDelimiter guifg=#6699cc ctermfg=68
 hi markdownItalic guifg=#c594c5 ctermfg=176 gui=italic cterm=italic
 hi markdownBold guifg=#fac863 ctermfg=221 gui=bold cterm=bold
 hi markdownCodeDelimiter guifg=#ab7967 ctermfg=137 gui=italic cterm=italic
-hi markdownError guifg=#c0c5ce ctermfg=251 guibg=#1b2b34 ctermbg=235
+hi markdownError guifg=#c0c5ce ctermfg=251 guibg=#181C1D ctermbg=235
 hi NeomakeErrorSign guifg=#ec5f67 ctermfg=203 guibg=#343d46 ctermbg=237
 hi NeomakeWarningSign guifg=#fac863 ctermfg=221 guibg=#343d46 ctermbg=237
 hi NeomakeInfoSign guifg=#ffffff ctermfg=15 guibg=#343d46 ctermbg=237
@@ -154,7 +154,7 @@ hi sassInclude guifg=#c594c5 ctermfg=176
 hi sassMixing guifg=#c594c5 ctermfg=176
 hi sassMixinName guifg=#6699cc ctermfg=68
 hi vimfilerLeaf guifg=#c0c5ce ctermfg=251
-hi vimfilerNormalFile guifg=#c0c5ce ctermfg=251 guibg=#1b2b34 ctermbg=235
+hi vimfilerNormalFile guifg=#c0c5ce ctermfg=251 guibg=#181C1D ctermbg=235
 hi vimfilerOpenedFile guifg=#6699cc ctermfg=68
 hi vimfilerClosedFile guifg=#6699cc ctermfg=68
 hi GitGutterAdd guifg=#99c794 ctermfg=114 guibg=#343d46 ctermbg=237
@@ -165,7 +165,7 @@ hi xmlTag guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTagName guifg=#c0c5ce ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlEndTag guifg=#62b3b2 ctermfg=73
 
-let g:terminal_color_0 = "#1b2b34"
+let g:terminal_color_0 = "#181C1D"
 let g:terminal_color_1 = "#ec5f67"
 let g:terminal_color_2 = "#99c794"
 let g:terminal_color_3 = "#fac863"
@@ -181,7 +181,7 @@ let g:terminal_color_12 = "#a7adba"
 let g:terminal_color_13 = "#c0c5ce"
 let g:terminal_color_14 = "#ab7967"
 let g:terminal_color_15 = "#d8dee9"
-let g:terminal_color_background = "#1b2b34"
+let g:terminal_color_background = "#181C1D"
 let g:terminal_color_foreground = "#d8dee9"
 
 " ===================================
